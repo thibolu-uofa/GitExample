@@ -9,8 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5d430f7-55e1-4135-bbda-f2e9ef8a153c" name="Changes" comment="Add full project">
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+    <list default="true" id="b5d430f7-55e1-4135-bbda-f2e9ef8a153c" name="Changes" comment="Revert SDK from 34 to 33">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/myapplication/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/myapplication/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,7 +57,7 @@
   <component name="PsdUISettings">
     <option name="MODULE_TAB" value="Default Config" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.ExampleUnitTest.createStudent">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="GitExample.app.main" />
       <option name="DEPLOY" value="true" />
@@ -116,6 +124,34 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExampleUnitTest.createStudent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:testDebugUnitTest" />
+            <option value="--tests" />
+            <option value="&quot;com.example.myapplication.ExampleUnitTest.createStudent&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ExampleUnitTest.createStudent" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698267379443</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Revert SDK from 34 to 33">
+      <created>1698267431241</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698267431241</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +192,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add full project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add full project" />
+    <MESSAGE value="Revert SDK from 34 to 33" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert SDK from 34 to 33" />
   </component>
 </project>
