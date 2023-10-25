@@ -13,6 +13,8 @@ public class Student {
         return gpa;
     }
 
-    public void setGpa()
+    public void setGpa(double gpa) {
+        this.gpa = gpa;
+    }
 
 }
