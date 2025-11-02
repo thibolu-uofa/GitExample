@@ -1,5 +1,7 @@
 package com.example.myapplication;
 
+import androidx.annotation.Nullable;
+
 /**
  *
  * @author lutellie
@@ -34,8 +36,8 @@ public class Node {
         next = newNext;
     }
 
-    //todo Add an equals function
-
-    
-    
+    @Override
+    public boolean equals(@Nullable Object obj) {
+        return super.equals(obj);
+    }
 }
