@@ -34,6 +34,8 @@ public class Node {
         next = newNext;
     }
 
+    //todo Add an equals function
+
     
     
 }
