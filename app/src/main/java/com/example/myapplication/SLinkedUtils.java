@@ -8,5 +8,7 @@ public class SLinkedUtils {
 
     public static void reverse(SLinkedList list) {
         // going to do something
+        Node prev =null;
+        Node current = list.getHead();
     }
 }
