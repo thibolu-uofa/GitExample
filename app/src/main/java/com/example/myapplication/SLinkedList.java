@@ -27,7 +27,15 @@ public class SLinkedList {
         }
         size += 1; // increment size
     }
-    
+
+    public Node getHead(){
+        return head;
+    }
+
+    public void setHead(Node newHead){
+        head = newHead;
+    }
+
     public void addLast(Object data) {
         Node aNode = new Node(data); // create node
         if (size == 0) {
