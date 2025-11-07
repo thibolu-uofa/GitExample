@@ -160,6 +160,7 @@ public class SLinkedList {
         before_ith_node.setNext(before_ith_node.getNext().getNext());
         
         return tempNode;
+        // adding a comment
      }
 
      /**
