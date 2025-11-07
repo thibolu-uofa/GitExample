@@ -161,9 +161,13 @@ public class SLinkedList {
         
         return tempNode;
      }
-    
+
+     /**
+    This is a toString method
+    **/
     @Override
     public String toString(){
+
         String answer = "";
         Node walk = head;
         while (walk != null){
